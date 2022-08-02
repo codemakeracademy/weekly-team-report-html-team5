@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17.522mm" height="18.306mm" version="1.1" viewBox="0 0 17.522 18.306" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <radialGradient id="a" cx="253.33" cy="-31.031" r="8.761" gradientTransform="matrix(.99491 0 0 .85264 -26.91 -1.6054)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#717171" offset="0"/>
+   <stop stop-color="#818181" stop-opacity=".31712" offset=".70056"/>
+   <stop stop-color="#898989" stop-opacity="0" offset="1"/>
+  </radialGradient>
+ </defs>
+ <g transform="translate(-105.11 -153.98)">
+  <g transform="translate(-111.26 192.88)">
+   <g>
+    <ellipse cx="225.13" cy="-28.064" rx="8.7164" ry="7.47" fill="url(#a)"/>
+    <circle cx="225.13" cy="-30.139" r="8.761" fill="#fff"/>
+    <circle transform="rotate(32.423)" cx="173.88" cy="-146.15" r="7.2885" fill="#ea7829"/>
+    <path d="m231.29-26.231c-1.6553 2.606-4.6906 3.8044-7.5483 3.2477-3.267-3.9146-1.1144-10.47 2.8459-14.3 0.84962 0.17223 1.6826 0.50002 2.458 0.99256 3.3978 2.1583 4.4027 6.6624 2.2444 10.06z" fill="#f58331" stroke-width=".093145"/>
+    <circle cx="222.28" cy="-29.997" r=".50483"/>
+    <circle cx="227.85" cy="-30.06" r=".50483"/>
+   </g>
+   <g fill="none" stroke="#000" stroke-width=".565">
+    <path d="m222.64-25.69 5.4215-1.6853"/>
+    <path d="m221.09-30.951 2.1613-1.2305"/>
+    <path d="m226.5-32.105 2.4526 1.1573"/>
+   </g>
+  </g>
+ </g>
+</svg>

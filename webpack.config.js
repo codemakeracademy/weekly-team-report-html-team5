@@ -7,9 +7,8 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const stylesHandler = "style-loader";
 
 const pages = [
-  // Our 11 pages .html
+  "index"
 ];
-
 
 
 const config = {
@@ -38,10 +37,10 @@ const config = {
     pages.map(
       (page) =>
         new HtmlWebpackPlugin({
-          inject: true,
           template: `./${page}.html`,
           filename: `${page}.html`,
           chunks: [page],
+          inject: true,
         })
     )
   ),
