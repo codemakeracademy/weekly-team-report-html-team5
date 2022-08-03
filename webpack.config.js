@@ -63,6 +63,11 @@ const config = {
         test: /\.(png|svg|gif|woff|woff2|eot|jpg|ttf)$/i,
         type: "asset/resource",
       },
+      {
+        test: /\.html$/i,
+        loader: "html-loader",
+      },
+
     ],
   },
 };
