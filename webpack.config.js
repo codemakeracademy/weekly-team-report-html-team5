@@ -7,8 +7,9 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const stylesHandler = "style-loader";
 
 const pages = [
-  "index"
-  // Other html
+  "index",
+  "my-reports",
+  "team-reports"
 ];
 
 
@@ -66,8 +67,7 @@ const config = {
       {
         test: /\.html$/i,
         loader: "html-loader",
-      },
-
+      }
     ],
   },
 };
