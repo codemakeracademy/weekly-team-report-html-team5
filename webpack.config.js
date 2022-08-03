@@ -8,6 +8,7 @@ const stylesHandler = "style-loader";
 
 const pages = [
   "index"
+  // Other html
 ];
 
 
