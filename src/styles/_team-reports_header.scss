@@ -1,0 +1,93 @@
+@import "variables";
+.header-block {
+    width: 100%;
+    height: 300px;
+    background: $gray-header ;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header-buttons {
+    margin-top: 30px;
+}
+.btn,
+.btn:hover,
+.btn:focus,
+.btn:active {
+    background-color: #1F2426;
+    border: 1px solid #000;
+    outline: unset;
+    color: grey;
+    font-weight: 400;
+}
+.btn.active {
+    background-color: #1F2426;
+    border: 2px solid $light-yellow;
+    color: white;
+}
+.avatar-block {
+    display: flex;
+    margin-top: 40px;
+}
+
+.avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #D5D9DB;
+    border: 3px solid white;
+    margin: 0 -5px;
+}
+.avatar-active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: $light-yellow;
+    border: 3px solid white;
+}
+.title-block {
+    display: flex;
+    color:white;
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 30px;
+}
+.bold {
+    margin: 0 8px;
+    font-weight: bold;
+}
+.main-buttons-block {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.second {
+    height: 38px;
+}
+.main-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 70px;
+}
+.title-line {
+    background-color: $light-yellow;
+    height: 6px;
+    width: 60px;
+    margin: 15px auto;
+}
+.expand-button-block {
+    display: flex;
+    justify-content: end;
+    margin-right: 100px;
+}
+.expand-button {
+    color:white ;
+    font-weight: 700;
+}

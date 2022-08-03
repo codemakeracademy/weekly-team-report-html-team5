@@ -7,7 +7,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const stylesHandler = "style-loader";
 
 const pages = [
-  "index"
+  "index","team-reports"
   // Other html
 ];
 
@@ -46,6 +46,7 @@ const config = {
     )
   ),
   module: {
+
     rules: [
       {
         test: /\.s[ac]ss$/i,

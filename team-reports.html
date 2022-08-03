@@ -1,10 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>team-reports</title>
+  <link rel="stylesheet" href="./src/styles/_team-reports_header.scss">
 </head>
+
 <body>
+  <!-- <%= require('html-loader!./index.html') %> -->
+  <div class="header-block">
+    <div class="header-buttons">
+      <div class="btn-group">
+        <a href="#" class="btn active display-4" aria-current="page">Immediate Team</a>
+        <a href="#" class="btn ">Extended Team</a>
+      </div>
+    </div>
+    <div class="avatar-block">
+      <div class="avatar"> AE </div>
+      <div class="avatar"> NK </div>
+      <div class="avatar"> AK </div>
+      <div class="avatar"> NM </div>
+      <div class="avatar-active"> +3 </div>
+    </div>
+    <div class="title-block">
+      <div>Your team </div>
+      <div class="bold"> has not submitted reports </div>
+      <div> this week.</div>
+    </div>
+  </div>
+  <div class="main-block">
+    <div class="main-buttons-block">
+      <div class="btn-group">
+        <a href="#" class="btn second active display-4" aria-current="page">Previous Period : 5/16 - 5/22</a>
+        <a href="#" class="btn second ">Current Period : 5/23 - 5/29</a>
+        <a href="#" class="btn second">Older Reports</a>
+      </div>
+    </div>
+    <div class="main-title">IMMEDIATE TEAM</div>
+    <div class="title-line"></div>
+    <div class="rotate-button"></div>
+    <div class="expand-button-block">
+    <a href="#" class="btn expand-button">Expand all</a>
+    </div>
+    <ul class="nav">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">Active</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled">Disabled</a>
+      </li>
+    </ul>
+
+
+
+
+  </div>
+  </div>
 
 </body>
+<script src="src/team-reports.js"></script>
+
 </html>
