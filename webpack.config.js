@@ -9,7 +9,8 @@ const stylesHandler = "style-loader";
 const pages = [
   "index",
   "my-reports",
-  "team-reports"
+  "team-reports",
+  "aside-bar"
 ];
 
 

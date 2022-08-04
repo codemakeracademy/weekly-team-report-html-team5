@@ -4,7 +4,7 @@
 @import "~bootstrap/scss/variables";
 
 $main-background-color: #f0f8fc;
-$launch-guide-img-width: 200px;
+$launch-guide-img-width: 250px;
 
 $body-bg: $main-background-color;
 
@@ -13,9 +13,9 @@ $btn-disabled-bg: #e9f1f3;
 
 $gray-800: #272c2e;
 $gray-900: #1c2021;
-$aside-width: 350px;
+$aside-width: 300px;
 $aside-bg: $gray-800;
-$aside-font-size: 1.1rem;
+$aside-font-size: 0.9rem;
 
 
 
@@ -27,5 +27,8 @@ $copy-link-area-border-color: #1f2226;
 $copy-link-area-bg: transparent;
 
 $nav-pills-link-active-font-weight: bold;
-$nav-pills-padding-y: 10px;
+$nav-pills-padding-y: 5px;
 $nav-pills-padding-x: 20px;
+
+$test-aside-bar-color: #ffffff
+
