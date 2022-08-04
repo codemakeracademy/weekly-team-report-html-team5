@@ -148,3 +148,10 @@
 .accordion-button:not(.collapsed)::after {
     background-image: var(--bs-accordion-btn-icon);
 }
+
+.edit-button {
+    text-decoration: none;
+    font-weight: 400;
+    color: var(--bs-body-color);
+    margin-right: 1%;
+}

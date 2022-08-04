@@ -7,7 +7,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const stylesHandler = "style-loader";
 
 const pages = [
-  "index","team-reports", "my-reports"
+  "index","team-reports", "my-reports","team-members"
   // Other html
 ];
 
