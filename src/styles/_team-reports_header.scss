@@ -98,7 +98,7 @@
 .expand-button-block {
     display: flex;
     justify-content: end;
-    width: 100%;
+    width: 88%;
 }
 
 .expand-button {
@@ -108,9 +108,13 @@
 
 body {
     background-color: #F5F7F8;
-    align-items: center;
+    display: flex;
+}
+.block {
     flex-direction: column;
     display: flex;
+    align-items: center;
+    width: 100%;
 }
 
 .nav {
@@ -121,6 +125,7 @@ body {
     justify-content: right;
     box-shadow: 0px 5px 7px 0px #d6d6d6;
     width: 100%;
+    margin-bottom: 6px;
 }
 
 .table-items {
@@ -176,7 +181,7 @@ body {
 }
 
 .help-button-block {
-    width: 73%;
+    width: 96%;
     display: flex;
     justify-content: end;
     margin-top: 5%;

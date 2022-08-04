@@ -1,0 +1,150 @@
+@import './team-reports_header';
+
+.avatar-my-reports {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #D5D9DB;
+    border: 3px solid white;
+    margin: 0 -5px;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.header-block-my-reports {
+    width: 100%;
+    height: 300px;
+    background: $gray-header ;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.title-name {
+    color: white;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.email {
+    color: #F8F2DF;
+    font-family: COnsolas sans-serif;
+}
+
+.accordion-block {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 6px;
+}
+
+.emoji-block {
+    align-items: center;
+    display: flex;
+    margin-right: 10px;
+}
+
+.emoji-block i {
+    margin-right: 40px;
+    font-size: 40px;
+
+}
+
+.bi-emoji-smile
+ {
+    color: #48CE65;
+}
+
+.bi-emoji-laughing {
+    color: #21943D;
+}
+
+.bi-emoji-neutral {
+    color: yellow;
+}
+
+.bi-emoji-frown {
+    color: red;
+}
+
+.accordion-body-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.accordion-top-bar {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.accordion-green-block {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 70px;
+    padding: 5px 10px;
+    color: white;
+    box-shadow: 0 5px 10px 0 grey;
+    background-color: #91E1A2;
+    margin-right: 15px;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.accordion-green-block i {
+    color: #48CE65;
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.accordion-top-bar-comment {
+    color: grey;
+}
+
+.accordion-mark {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.accordion-title {
+    font-size: 18px;
+}
+
+.accordion-button.open {
+    color: $light-yellow;
+    background-color: #1F2426 ;
+}
+
+// .accordion-button:not(.collapsed)::after {
+//      background-image: var(#B6BEC2);
+// }
+
+.bs-accordion-btn-active-icon {
+    color: #B6BEC2;
+}
+
+.accordion-item {
+ margin-bottom: 0.5%;
+ box-shadow: 0px 5px 7px 0px #d6d6d6;
+
+}
+
+.my-report {
+    width: 88%;
+}
+.nav-item.third {
+    margin-right: 11%;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: var(--bs-accordion-btn-icon);
+}
