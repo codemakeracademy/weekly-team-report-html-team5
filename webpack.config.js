@@ -15,10 +15,11 @@ const pages = [
 
 
 const config = {
-  entry: pages.reduce((config, page) => {
+  entry: "./src/index.js",
+  /*entry: pages.reduce((config, page) => {
     config[page] = `./src/${page}.js`;
     return config;
-  }, {}),
+  }, {}),*/
   output: {
     filename: '[name].js',
     path: path.resolve(__dirname, "dist"),
