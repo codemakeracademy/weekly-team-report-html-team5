@@ -1,0 +1,33 @@
+@import "variables";
+
+.add-button {
+  position: fixed;
+  z-index: 10;
+  bottom: 1rem;
+  right: 2rem;
+  border-radius: 2rem;
+  font-weight: bold;
+  color: $gray-900;
+  background-color: $light-yellow;
+  border: 0;
+
+}
+
+.add-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px
+}
+
+.add-button2 {
+    position: fixed;
+    top: 45%;
+    right: -2rem;
+    transform: rotate(-90deg);
+    background-color: $darkblue-500;
+    font-weight: 400;
+    border: 0;
+    font-size: 18px;
+
+}
