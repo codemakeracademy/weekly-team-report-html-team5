@@ -35,17 +35,16 @@ const config = {
     host: "localhost",
   },
 
-  plugins: [].concat(
-    pages.map(
-      (page) =>
-        new HtmlWebpackPlugin({
-          template: `./${page}.html`,
-          filename: `${page}.html`,
-          chunks: [page],
-          inject: true,
-        })
-    )
-  ),
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: "./index.html",
+      filename: "index.html"
+    }),
+    new HtmlWebpackPlugin({
+      template: "src/pages/my-reports.html",
+      filename: "my-reports.html"
+    }),
+  ],
   module: {
     rules: [
       {
@@ -67,7 +66,7 @@ const config = {
       {
         test: /\.html$/i,
         loader: "html-loader",
-      }
+      },
     ],
   },
 };
