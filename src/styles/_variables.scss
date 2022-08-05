@@ -3,10 +3,11 @@
 @import "~bootstrap/scss/mixins";
 @import "~bootstrap/scss/variables";
 
+//bg
 $main-background-color: #f0f8fc;
-$launch-guide-img-width: 250px;
-
 $body-bg: $main-background-color;
+
+$launch-guide-img-width: 250px;
 
 $btn-disabled-color: #7a8387;
 $btn-disabled-bg: #e9f1f3;
@@ -17,28 +18,34 @@ $gray-900: #1c2021;
 $aside-width: 300px;
 $aside-bg: $gray-800;
 $aside-font-size: 0.95rem;
-$smile-size: 110px;
-$smile-card-height: 220px;
-$smile-card-width: 170px;
+
+$content-block-title-size: 2.2rem;
 
 $light-yellow: #ffc114;
 $darkblue-500: #0b4575;
+
 $small-block-width: 500px;
 $send-button-height: 50px;
+
 $copy-link-area-height: 50px;
 $copy-link-area-border-color: #1f2226;
 $copy-link-area-bg: transparent;
 
 $input-placeholder-color: #bcbec2;
-$textarea-focus-box-shadow: 0 0 10px $light-yellow;
+
 $nav-pills-link-active-font-weight: bold;
-$nav-pills-padding-y: 5px;
-$nav-pills-padding-x: 20px;
+$nav-pills-padding-y: 6px;
+$nav-pills-padding-x: 23px;
 
 $report-textarea-height: 210px;
 $report-textarea-padding: 35px;
-$test-aside-bar-color: #ffffff;
-$content-block-title-size: 2.3rem;
 $big-title-size: 3.5rem;
+$textarea-focus-box-shadow: 0 0 8px $light-yellow;
+$test-aside-bar-color: #ffffff;
+$text-size-fill-out-head: 3.7rm;
+
+$smile-size: 110px;
+$smile-card-height: 220px;
+$smile-card-width: 170px;
 
 
