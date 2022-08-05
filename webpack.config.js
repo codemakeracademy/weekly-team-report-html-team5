@@ -40,11 +40,11 @@ const config = {
       filename: "index.html"
     }),
     new HtmlWebpackPlugin({
-      template: "src/pages/my-reports.html",
+      template: "./my-reports.html",
       filename: "my-reports.html"
     }),
     new HtmlWebpackPlugin({
-      template: "src/pages/fill-out-report.html",
+      template: "./fill-out-report.html",
       filename: "fill-out-report.html"
     }),
   ],
