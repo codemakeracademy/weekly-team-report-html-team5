@@ -10,16 +10,13 @@ const pages = [
   "index",
   "my-reports",
   "team-reports",
-  "aside-bar"
+  "aside-bar",
+  "fill-out-report"
 ];
 
 
 const config = {
   entry: "./src/index.js",
-  /*entry: pages.reduce((config, page) => {
-    config[page] = `./src/${page}.js`;
-    return config;
-  }, {}),*/
   output: {
     filename: '[name].js',
     path: path.resolve(__dirname, "dist"),
@@ -45,6 +42,10 @@ const config = {
     new HtmlWebpackPlugin({
       template: "src/pages/my-reports.html",
       filename: "my-reports.html"
+    }),
+    new HtmlWebpackPlugin({
+      template: "src/pages/fill-out-report.html",
+      filename: "fill-out-report.html"
     }),
   ],
   module: {
@@ -83,3 +84,18 @@ module.exports = () => {
 
   return config;
 };
+
+
+
+
+
+
+
+
+
+
+
+/*entry: pages.reduce((config, page) => {
+    config[page] = `./src/${page}.js`;
+    return config;
+  }, {}),*/
