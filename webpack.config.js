@@ -11,7 +11,8 @@ const pages = [
   "my-reports",
   "team-reports",
   "aside-bar",
-  "fill-out-report"
+  "fill-out-report",
+  "sign-in"
 ];
 
 
@@ -58,6 +59,10 @@ const config = {
     new HtmlWebpackPlugin({
       template: "./my-company.html",
       filename: "my-company.html"
+    }),
+    new HtmlWebpackPlugin({
+      template: "./sign-in.html",
+      filename: "sign-in.html"
     }),
   ],
   module: {
