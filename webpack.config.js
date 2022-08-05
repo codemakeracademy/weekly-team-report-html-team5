@@ -47,6 +47,18 @@ const config = {
       template: "./fill-out-report.html",
       filename: "fill-out-report.html"
     }),
+    new HtmlWebpackPlugin({
+      template: "./invite-your-team.html",
+      filename: "invite-your-team.html"
+    }),
+    new HtmlWebpackPlugin({
+      template: "./team-reports.html",
+      filename: "team-reports.html"
+    }),
+    new HtmlWebpackPlugin({
+      template: "./my-company.html",
+      filename: "my-company.html"
+    }),
   ],
   module: {
     rules: [
