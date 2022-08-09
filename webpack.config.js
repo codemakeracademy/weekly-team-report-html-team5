@@ -13,7 +13,8 @@ const pages = [
   "aside-bar",
   "fill-out-report",
   "sign-in",
-  "edit-profile"
+  "edit-profile",
+  "edit-member-info"
 ];
 
 
@@ -68,6 +69,10 @@ const config = {
     new HtmlWebpackPlugin({
       template: "./edit-profile.html",
       filename: "./edit-profile"
+    }),
+    new HtmlWebpackPlugin({
+      template: "./edit-member-info.html",
+      filename: "edit-member-info.html"
     }),
   ],
   module: {
