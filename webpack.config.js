@@ -114,6 +114,7 @@ module.exports = () => {
   }
 
   return config;
+
 };
 
 
@@ -131,3 +132,5 @@ module.exports = () => {
     config[page] = `./src/${page}.js`;
     return config;
   }, {}),*/
+
+
