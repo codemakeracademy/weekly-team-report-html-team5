@@ -74,6 +74,10 @@ const config = {
       template: "./edit-member-info.html",
       filename: "edit-member-info.html"
     }),
+    new HtmlWebpackPlugin({
+      template: "./weekly-report-history.html",
+      filename: "weekly-report-history.html"
+    }),
   ],
   module: {
     rules: [
