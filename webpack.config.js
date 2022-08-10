@@ -127,8 +127,10 @@ module.exports = () => {
 
 
 
+
 /*entry: pages.reduce((config, page) => {
     config[page] = `./src/${page}.js`;
     return config;
   }, {}),*/
+
 
