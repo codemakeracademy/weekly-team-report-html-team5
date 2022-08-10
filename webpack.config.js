@@ -8,16 +8,18 @@ const stylesHandler = "style-loader";
 
 const pages = [
   "index",
-  "my-company"
-  // Other html
+  "my-reports",
+  "team-reports",
+  "aside-bar",
+  "fill-out-report",
+  "sign-in",
+  "edit-profile",
+  "edit-member-info"
 ];
 
 
 const config = {
-  entry: pages.reduce((config, page) => {
-    config[page] = `./src/${page}.js`;
-    return config;
-  }, {}),
+  entry: "./src/index.js",
   output: {
     filename: '[name].js',
     path: path.resolve(__dirname, "dist"),
@@ -35,17 +37,44 @@ const config = {
     host: "localhost",
   },
 
-  plugins: [].concat(
-    pages.map(
-      (page) =>
-        new HtmlWebpackPlugin({
-          template: `./${page}.html`,
-          filename: `${page}.html`,
-          chunks: [page],
-          inject: true,
-        })
-    )
-  ),
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: "./index.html",
+      filename: "index.html"
+    }),
+    new HtmlWebpackPlugin({
+      template: "./my-reports.html",
+      filename: "my-reports.html"
+    }),
+    new HtmlWebpackPlugin({
+      template: "./fill-out-report.html",
+      filename: "fill-out-report.html"
+    }),
+    new HtmlWebpackPlugin({
+      template: "./invite-your-team.html",
+      filename: "invite-your-team.html"
+    }),
+    new HtmlWebpackPlugin({
+      template: "./team-reports.html",
+      filename: "team-reports.html"
+    }),
+    new HtmlWebpackPlugin({
+      template: "./my-company.html",
+      filename: "my-company.html"
+    }),
+    new HtmlWebpackPlugin({
+      template: "./sign-in.html",
+      filename: "sign-in.html"
+    }),
+    new HtmlWebpackPlugin({
+      template: "./edit-profile.html",
+      filename: "./edit-profile"
+    }),
+    new HtmlWebpackPlugin({
+      template: "./edit-member-info.html",
+      filename: "edit-member-info.html"
+    }),
+  ],
   module: {
     rules: [
       {
@@ -64,6 +93,10 @@ const config = {
         test: /\.(png|svg|gif|woff|woff2|eot|jpg|ttf)$/i,
         type: "asset/resource",
       },
+      {
+        test: /\.html$/i,
+        loader: "html-loader",
+      },
     ],
   },
 };
@@ -78,3 +111,18 @@ module.exports = () => {
 
   return config;
 };
+
+
+
+
+
+
+
+
+
+
+
+/*entry: pages.reduce((config, page) => {
+    config[page] = `./src/${page}.js`;
+    return config;
+  }, {}),*/
