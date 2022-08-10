@@ -1,0 +1,62 @@
+@import "variables";
+
+.fill-out-textarea {
+  position: relative;
+  padding: $report-textarea-padding;
+  height: $report-textarea-height;
+}
+
+.send-btn{
+    margin-top: $btn-send-mg;
+}
+
+.sml-card {
+  height: $smile-card-height;
+  width: $smile-card-width;
+  border: 1px solid $input-placeholder-color;
+  box-shadow: 1px 1px 1px 1px $input-placeholder-color;
+  border-radius: 5px;
+}
+
+.sml-card:hover {
+    border: 1px solid $light-yellow;
+    box-shadow: 1px 1px 1px 1px $light-yellow
+}
+
+.small-block{
+  width: $small-block-width;
+  margin: 0 auto;
+  border: none;
+}
+
+.send-report-button{
+  height: $send-button-height;
+}
+
+.big-title{
+  font-size: $big-title-size;
+}
+
+.brush-bg{
+  background: url("../img/big-title-brush-background.png") center no-repeat;
+}
+
+.content-block-title{
+  font-size: $text-size-fill-out-head;
+}
+
+.textarea-with-counter{
+  position: relative;
+}
+
+.textarea-counter{
+  color: $input-placeholder-color;
+  position: absolute;
+  bottom: $report-textarea-padding;
+  right: $report-textarea-padding;
+}
+
+.sml-icons{
+  height: $smile-size;
+  width: $smile-size;
+}
