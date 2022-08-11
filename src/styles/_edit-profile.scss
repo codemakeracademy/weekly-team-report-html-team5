@@ -1,0 +1,48 @@
+@import "variables";
+
+.leader-border{
+  height: $leader-size;
+  line-height: $leader-size;
+  width: $leader-size;
+  border-radius: 50%;
+  border: $leader-border;
+  background: $leader-bg;
+  font-size: $leader-font;
+  color: $leader-color;
+  text-align: center;
+}
+
+.save-btn {
+    margin: 0px 0px 15px 50px;
+}
+
+.article-wrap {
+padding: 50px;
+}
+
+.copy-link-textarea {
+  width: $small-block-width;
+  height: $copy-link-area-height;
+  border-color: $copy-link-area-border-color;
+  background-color: $copy-link-area-bg !important;
+  resize: none;
+  white-space: nowrap;
+  overflow-y: hidden;
+
+ }
+
+#first-name{
+  width: 270px;
+}
+
+#last-name{
+  width: 330px;
+}
+
+.tag-row{
+  gap: $row-gap;
+}
+
+#title{
+  width: 400px;
+}

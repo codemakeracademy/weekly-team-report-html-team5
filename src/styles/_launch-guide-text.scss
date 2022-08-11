@@ -1,0 +1,27 @@
+@import "variables";
+
+.launch-guide-text-header {
+  margin-top: -7px;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+.launch-guide-col {
+  padding-right: 3.9rem;
+}
+.launch-guide-text-info {
+  font-weight: 500;
+}
+
+.mt-3 {
+    box-shadow: 1px 2px 3px 1px #576063;
+}
+
+.mt-3:hover {
+    box-shadow: 1px 2px 3px 1px #cacecf;
+}
+
